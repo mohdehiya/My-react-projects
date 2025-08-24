@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.inner > form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 10px;
+    height: 450px;
+    width: 450px;
+    background-color:white ;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 790px;
+}
+.inner > form > input{
+    height: 40px;
+}
+
+.inner > form > button{
+    height: 50px;
+    background-color: #ccc;
+    color: black;
+    border-radius: 10px;
+    border: black solid 3px;
+}

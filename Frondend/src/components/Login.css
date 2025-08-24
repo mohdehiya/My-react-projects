@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/025/373/880/small_2x/a-pair-of-keys-with-a-yellow-tag-attached-to-them-created-with-generative-ai-technology-photo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.inner > form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 10px;
+    height: 400px;
+    width: 400px;
+    background-color:wheat ;
+    padding: 20px;
+    border-radius: 20px;
+}
+.inner > form > input{
+    height: 30px;
+}
+
+.inner > form > button{
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
